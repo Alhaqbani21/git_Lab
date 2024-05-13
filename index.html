@@ -10,13 +10,49 @@
       Cars
     </h1>
 
-    <table>
+    <table style="width: 100%" border="1px">
       <tr>
         <th>Car Name:</th>
         <th>Car Img:</th>
         <th>Car price:</th>
         <th>Car Website:</th>
       </tr>
+      <tr>
+        <td>Audi</td>
+        <td><img src="./Audi.png" alt="" /></td>
+        <td>20000$</td>
+        <td><a href="google.com">Audi Website</a></td>
+      </tr>
+      <tr>
+        <td>Mercedes</td>
+        <td><img src="./Mercedes.png" alt="" /></td>
+        <td>
+          <ul>
+            <li>40000$</li>
+            <li>43000$</li>
+          </ul>
+        </td>
+        <td><a href="google.com">Mercedes Website</a></td>
+      </tr>
+      <tr>
+        <td>BMW</td>
+        <td><img src="./BMW.png" alt="" /></td>
+        <td>20000$</td>
+        <td><a href="google.com">BMW Website</a></td>
+      </tr>
     </table>
+
+    <p>Enter your data</p>
+    <form onsubmit="alert(`Hello`)" style="border: 1px solid; padding: 10px">
+      <label for="">Name</label>
+      <input type="text" />
+      <label for="">Email</label>
+      <input type="email" />
+      <label for="">Password</label>
+      <input type="password" />
+      <label for="">Date of Birth</label>
+      <input type="date" />
+      <input type="submit" />
+    </form>
   </body>
 </html>
